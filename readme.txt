@@ -21,7 +21,7 @@ This plugin will allow you to upload pdf files to your post or pages or any othe
 = Other Optional Options =
 * [pdf_attachment file="file_number" name="optional file_name"]
 * Or
-* &lt;?php echo pdf_attachment_file(1,&quot;optional file_name&quot;);?&gt;
+* pdf_attachment_file(1,"optional file_name")
 
 == Installation ==
 
