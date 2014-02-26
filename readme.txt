@@ -8,20 +8,23 @@ Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin will allow you to upload pdf files to your post or pages or any other custom post types. You can eather use shortcodes or functions to display attachments. You can upload at most 10 PDF files as attachments. :)
+This plugin will allow you to upload pdf files to your post or pages or any other custom post types.
 
 
 == Description ==
 
-* This plugin will allow you to upload pdf files to your post or pages or any other custom post types. 
-* just install the plugin and update setting from Settings-> Custom Pdf Attachment. 
+* This plugin will allow you to upload pdf files to your post or pages or any other custom post types.
+* You can eather use shortcodes or functions to display attachments. 
+* At most 10 PDF files can be uploaded.
+* just install the plugin and update setting from `Settings-> Custom Pdf Attachment`. 
 * Upload files in your post/page edit page.
 * Display files in frontend using shortcodes or using custom functions.
 
-= Other Optional Options =
+= Usage =
 * [pdf_attachment file="file_number" name="optional file_name"]
 * Or
-* pdf_attachment_file(1,"optional file_name")
+* pdf_attachment_file("file_number","optional file_name");
+* Example: pdf_attachment_file(1,"PDF File 1");
 
 == Installation ==
 
