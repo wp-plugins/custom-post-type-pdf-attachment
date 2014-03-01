@@ -30,6 +30,20 @@ global $wpdb;
 $saved_types = get_option('saved_post_types_for_pdf_attachment');
 $saved_no_of_pdf_attachment = get_option('saved_no_of_pdf_attachment');
 ?>
+
+<table width="98%" border="0" style="background-color:#FFFFD2; border:1px solid #FFFF00;">
+ <tr>
+ <td align="right"><h3>Even $0.2 Can Make A Difference</h3></td>
+    <td><form name="_xclick" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+          <input type="hidden" name="cmd" value="_xclick">
+          <input type="hidden" name="business" value="avifoujdar@gmail.com">
+          <input type="hidden" name="item_name" value="Donation for plugins">
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="hidden" name="amount" value="0.20">
+          <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="Make a donation with PayPal">
+        </form></td>
+  </tr>
+</table>
 <form name="f" method="post" action="">
 <input type="hidden" name="option" value="save_custom_pdf_attachment_settings" />
 <table width="100%" border="0">
