@@ -10,9 +10,9 @@ function custom_pdf_attachment_shortcode( $atts ) {
 	 	return;
 	 }
 	 if($name){
-	 	$ret = '<img src="'.plugins_url( 'custom_pos_type_pdf_attachment/pdf.png', dirname(__FILE__) ).'">&nbsp;<a href="'.get_post_meta($post->ID, 'cpt_pdf_attachment'.$file, true).'">'.$name.'</a>';
+	 	$ret = '<img src="'.plugins_url( 'custom-post-type-pdf-attachment/pdf.png', dirname(__FILE__) ).'">&nbsp;<a href="'.get_post_meta($post->ID, 'cpt_pdf_attachment'.$file, true).'">'.$name.'</a>';
 	} else {
-		$ret = '<img src="'.plugins_url( 'custom_pos_type_pdf_attachment/pdf.png', dirname(__FILE__) ).'">&nbsp;<img src=""><a href="'.get_post_meta($post->ID, 'cpt_pdf_attachment'.$file, true).'">PDF Download</a>';
+		$ret = '<img src="'.plugins_url( 'custom-post-type-pdf-attachment/pdf.png', dirname(__FILE__) ).'">&nbsp;<img src=""><a href="'.get_post_meta($post->ID, 'cpt_pdf_attachment'.$file, true).'">PDF Download</a>';
 	}
 	 return $ret;
 }

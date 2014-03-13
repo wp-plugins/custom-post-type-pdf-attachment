@@ -2,8 +2,8 @@
 /*
 Plugin Name: Custom Post Type Attachment ( PDF )
 Plugin URI: http://avifoujdar.wordpress.com/category/my-wp-plugins/
-This plugin will allow you to upload pdf files to your post or pages or any other custom post types. You can either use shortcodes or functions to display attachments. You can upload at most 10 PDF files as attachments. :)
-Version: 1.0.1
+Description: This plugin will allow you to upload pdf files to your post or pages or any other custom post types. You can either use shortcodes or functions to display attachments. You can upload at most 10 PDF files as attachments. :)
+Version: 1.0.2
 Author: AFO
 Author URI: http://avifoujdar.wordpress.com/
 */
@@ -103,13 +103,12 @@ $saved_no_of_pdf_attachment = get_option('saved_no_of_pdf_attachment');
   </tr>
   
   <tr>
-    <td><input type="submit" name="submit" value="Save" /></td>
+    <td><input type="submit" name="submit" value="Save" class="button button-primary button-large" /></td>
   </tr>
 </table>
 </form>
 <?php 
-} // end of function 
-
+} // end of function
 
 function custom_pdf_attachment_post_date(){
 	if($_POST['option'] == "save_custom_pdf_attachment_settings"){
