@@ -52,8 +52,8 @@ This plugin will allow you to upload pdf files to your post or pages or any othe
 
 == Changelog ==
 
-= 1.0.2 =
-* Solved Pdf icon error missing error.
+= 2.0.1 =
+* Solved Pdf icon missing error.
 
 = 1.0.1 =
 * This is the first release.
