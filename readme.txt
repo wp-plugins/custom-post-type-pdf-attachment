@@ -4,7 +4,7 @@ Donate link: http://donateafo.net84.net/
 Tags: attachment, post attachment, pdf attachment, upload file, pdf in post, pdf in custom post type, post pdf, file attachment, file, pdf
 Requires at least: 2.0.2
 Tested up to: 3.8.1
-Stable tag: 2.0.1
+Stable tag: 2.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -51,6 +51,10 @@ This plugin will allow you to upload pdf files to your post or pages or any othe
 
 
 == Changelog ==
+
+
+= 2.0.2 =
+* Delete Attachment functionality added.
 
 = 2.0.1 =
 * Solved Pdf icon missing error.

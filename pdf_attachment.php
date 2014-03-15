@@ -29,14 +29,29 @@ function cpt_pdf_attachment_defined($i) {
 	global $post,$wpdb;
 	wp_nonce_field(plugin_basename(__FILE__), 'cpt_pdf_attachment_nonce'.$i);
 	
-	$html = '<p>';
-	$html .= 'Upload your PDF here.';
-	$html .= '</p>';
+	$html = '<table width="100%" border="0">
+  <tr>
+    <td><strong>Upload your PDF Here</strong></td>
+    <td>&nbsp;</td>
+	<td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><input id="cpt_pdf_attachment" name="cpt_pdf_attachment'.$i.'" value="" size="25" type="file"></td>';
+    $html .= '<td>';
+		if(get_post_meta($post->ID, 'cpt_pdf_attachment'.$i, true)){
+			$html .= '<a href="'.get_post_meta($post->ID, 'cpt_pdf_attachment'.$i, true).'">Download</a>';
+		}
+	$html .= '</td>';
 	
-	if(get_post_meta($post->ID, 'cpt_pdf_attachment'.$i, true)){
-	$html .= '<a href="'.get_post_meta($post->ID, 'cpt_pdf_attachment'.$i, true).'">Download</a>';
-	}
-	$html .= '<input id="cpt_pdf_attachment" name="cpt_pdf_attachment'.$i.'" value="" size="25" type="file">';
+	$html .= '<td>';
+		if(get_post_meta($post->ID, 'cpt_pdf_attachment'.$i, true)){
+			$html .= 'Check to remove&nbsp;<input type="checkbox" id="cpt_pdf_attachment_remove" name="cpt_pdf_attachment_remove'.$i.'" value="'.$i.'">';
+		}
+	$html .= '</td>';
+	
+  $html .= '</tr>
+</table>';
+	
 	echo $html;
 } 
 
@@ -67,6 +82,16 @@ if('page' == $_POST['post_type']) {
 	} // end if
 } // end if
 /* - end security verification - */
+
+// check for delete file //
+for($i=1; $i<=$saved_no_of_pdf_attachment; $i++ ){
+	if(!empty($_POST['cpt_pdf_attachment_remove'.$i])) {
+		delete_post_meta($id, 'cpt_pdf_attachment'.$i);
+	}
+}
+
+
+// check for delete file //
 
 // Make sure the file array isn't empty
 	for($i=1; $i<=$saved_no_of_pdf_attachment; $i++ ){

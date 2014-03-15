@@ -9,6 +9,11 @@ function custom_pdf_attachment_shortcode( $atts ) {
 	 if(!$file){
 	 	return;
 	 }
+	 
+	 if(!get_post_meta($post->ID, 'cpt_pdf_attachment'.$file, true)){
+	 	return;
+	 }
+	 
 	 if($name){
 	 	$ret = '<img src="'.plugins_url( 'custom-post-type-pdf-attachment/pdf.png', dirname(__FILE__) ).'">&nbsp;<a href="'.get_post_meta($post->ID, 'cpt_pdf_attachment'.$file, true).'">'.$name.'</a>';
 	} else {
