@@ -1,5 +1,5 @@
 === Custom Post Type Attachment ( PDF ) ===
-Contributors: afo
+Contributors: avimegladon
 Donate link: http://donateafo.net84.net/
 Tags: attachment, post attachment, pdf attachment, upload file, pdf in post, pdf in custom post type, post pdf, file attachment, file, pdf
 Requires at least: 2.0.2
