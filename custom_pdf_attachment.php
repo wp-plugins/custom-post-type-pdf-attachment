@@ -37,7 +37,7 @@ $saved_no_of_pdf_attachment = get_option('saved_no_of_pdf_attachment');
     <td><form name="_xclick" action="https://www.paypal.com/cgi-bin/webscr" method="post">
           <input type="hidden" name="cmd" value="_xclick">
           <input type="hidden" name="business" value="avifoujdar@gmail.com">
-          <input type="hidden" name="item_name" value="Donation for plugins">
+          <input type="hidden" name="item_name" value="Donation for plugins (PDF Attachment)">
           <input type="hidden" name="currency_code" value="USD">
           <input type="hidden" name="amount" value="0.60">
           <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="Make a donation with PayPal">
