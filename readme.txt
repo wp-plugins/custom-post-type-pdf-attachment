@@ -1,7 +1,7 @@
 === Custom Post Type Attachment ( PDF ) ===
 Contributors: avimegladon
 Donate link: http://donateafo.net84.net/
-Tags: attachment, post attachment, pdf attachment, upload file, pdf in post, pdf in custom post type, post pdf, file attachment, file, pdf
+Tags: file upload, upload, custom attachment, attachment, post attachment, pdf attachment, upload file, pdf in post, pdf in custom post type, filepost pdf, file attachment, file, pdf
 Requires at least: 2.0.2
 Tested up to: 3.8.1
 Stable tag: 2.0.2
@@ -22,6 +22,7 @@ This plugin will allow you to upload pdf files to your post or pages or any othe
 
 = Usage =
 * [pdf_attachment file="file_number" name="optional file_name"]
+* Example: [pdf_attachment file="1" name="PDF File 1"]
 * Or
 * pdf_attachment_file("file_number","optional file_name");
 * Example: echo pdf_attachment_file(1,"PDF File 1");
