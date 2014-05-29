@@ -66,10 +66,10 @@ class afo_pdf_settings {
 		<input type="hidden" name="option" value="save_custom_pdf_attachment_settings" />
 		<table width="100%" border="0">
 		  <tr>
-			<td><h1><?php echo static::$title;?></h1></td>
+			<td><h1><?php echo self::$title;?></h1></td>
 		  </tr>
 		  <tr>
-			<td><strong><?php echo static::$title1;?></strong></td>
+			<td><strong><?php echo self::$title1;?></strong></td>
 		  </tr>
 		  <tr>
 			<td><?php $this->post_types_selected($saved_types); ?></td>
