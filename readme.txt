@@ -1,6 +1,6 @@
 === Custom Post Type Attachment ( PDF ) ===
 Contributors: avimegladon
-Donate link: http://donateafo.net84.net/
+Donate link: http://aviplugins.com/donate/
 Tags: file upload, upload, custom attachment, attachment, post attachment, pdf attachment, upload file, pdf in post, pdf in custom post type, filepost pdf, file attachment, file, pdf
 Requires at least: 2.0.2
 Tested up to: 3.8.1
