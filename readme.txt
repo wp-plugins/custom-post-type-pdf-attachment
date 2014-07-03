@@ -20,6 +20,14 @@ This plugin will allow you to upload pdf files to your post or pages or any othe
 * Upload files in your post/page edit page.
 * Display files in frontend using shortcodes or using custom functions.
 
+= Custom Post Type Attachment PRO =
+There is a PRO version of this plugin that supports unlimited files to upload with multiple file types. You can get it <a href="http://aviplugins.com/custom-post-type-attachment-pro/" target="_blank">here</a> in <strong>USD 1.50</strong>
+
+* Unlimited number of files can be uploaded.
+* Files can be embedded in the page content. Users can view the content of the file before download.
+* Supported document files that can be embedded are Adobe Acrobat (PDF), Microsoft Word (DOC), Microsoft PowerPoint (PPT), Microsoft Excel (XLS)
+
+
 = Usage =
 * [pdf_attachment file="file_number" name="optional file_name"]
 * Example: [pdf_attachment file="1" name="PDF File 1"]
