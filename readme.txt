@@ -10,7 +10,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 This plugin will allow you to upload pdf files to your post or pages or any other custom post types.
 
-
 == Description ==
 
 * This plugin will allow you to upload pdf files to your post or pages or any other custom post types.
@@ -20,14 +19,6 @@ This plugin will allow you to upload pdf files to your post or pages or any othe
 * Upload files in your post/page edit page.
 * Display files in frontend using shortcodes or using custom functions.
 
-= Custom Post Type Attachment PRO =
-There is a PRO version of this plugin that supports unlimited files to upload with multiple file types. You can get it <a href="http://aviplugins.com/custom-post-type-attachment-pro/" target="_blank">here</a> in <strong>USD 1.50</strong>
-
-* Unlimited number of files can be uploaded.
-* Files can be embedded in the page content. Users can view the content of the file before download.
-* Supported document files that can be embedded are Adobe Acrobat (PDF), Microsoft Word (DOC), Microsoft PowerPoint (PPT), Microsoft Excel (XLS)
-
-
 = Usage =
 * [pdf_attachment file="file_number" name="optional file_name"]
 * Example: [pdf_attachment file="1" name="PDF File 1"]
@@ -35,21 +26,25 @@ There is a PRO version of this plugin that supports unlimited files to upload wi
 * pdf_attachment_file("file_number","optional file_name");
 * Example: echo pdf_attachment_file(1,"PDF File 1");
 
-== Installation ==
+= Custom Post Type Attachment PRO =
+There is a PRO version of this plugin that supports unlimited files to upload with multiple file types. You can get it <a href="http://aviplugins.com/custom-post-type-attachment-pro/" target="_blank">here</a> in <strong>USD 1.50</strong>
 
+* Unlimited number of files can be uploaded.
+* Files can be embedded in the page content. Users can view the content of the file before download.
+* Supported document files that can be embedded are Adobe Acrobat (PDF), Microsoft Word (DOC), Microsoft PowerPoint (PPT), Microsoft Excel (XLS)
+
+== Installation ==
 
 1. Upload `custom-pos-type-pdf-attachment.zip` to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. Go to `Settings-> Custom Pdf Attachment`, and set some options. It's really easy.
 4. Use shortcodes or functions to display uploaded files in frontend.
 
-
 == Frequently Asked Questions ==
 
 = For any kind of problem =
 
 1. Please email me avi.megladon@gmail.com. My site is http://avifoujdar.wordpress.com/contact/ 
-
 
 == Screenshots ==
 
@@ -58,9 +53,7 @@ There is a PRO version of this plugin that supports unlimited files to upload wi
 3. Post edit page view
 4. Shortcode view
 
-
 == Changelog ==
-
 
 = 2.0.2 =
 * Delete Attachment functionality added.
@@ -70,7 +63,6 @@ There is a PRO version of this plugin that supports unlimited files to upload wi
 
 = 1.0.1 =
 * This is the first release.
-
 
 == Upgrade Notice ==
 
