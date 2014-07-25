@@ -33,9 +33,7 @@ There is a PRO version of this plugin that supports unlimited files to upload wi
 * Files can be embedded in the page content. Users can view the content of the file before download.
 * Supported document files that can be embedded are Adobe Acrobat (PDF), Microsoft Word (DOC), Microsoft PowerPoint (PPT), Microsoft Excel (XLS)
 
-= Get Quote =
-Get a <a href="http://aviplugins.com/get-quote.php">quote</a> for creating a Custom Plugin, for Customizing a Plugin and for customizing wordpress themes.
-
+> Get a <a href="http://aviplugins.com/get-quote.php">quote</a> for creating a <strong>Custom</strong> Plugin.
 
 == Installation ==
 
@@ -44,17 +42,11 @@ Get a <a href="http://aviplugins.com/get-quote.php">quote</a> for creating a Cus
 3. Go to `Settings-> Custom Pdf Attachment`, and set some options. It's really easy.
 4. Use shortcodes or functions to display uploaded files in frontend.
 
-= Get Quote =
-Get a <a href="http://aviplugins.com/get-quote.php">quote</a> for creating a Custom Plugin, for Customizing a Plugin and for customizing wordpress themes.
-
 == Frequently Asked Questions ==
 
 = For any kind of problem =
 
 1. Please email me avi.megladon@gmail.com. My site is http://avifoujdar.wordpress.com/contact/ 
-
-= Get Quote =
-Get a <a href="http://aviplugins.com/get-quote.php">quote</a> for creating a Custom Plugin, for Customizing a Plugin and for customizing wordpress themes.
 
 == Screenshots ==
 
