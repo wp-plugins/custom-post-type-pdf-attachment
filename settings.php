@@ -96,7 +96,7 @@ class afo_pdf_settings {
 	}
 	
 	function custom_pdf_attachment_plugin_menu () {
-		add_options_page( 'Custom Pdf Attachment', 'Custom PDF Attachment', 1, 'custom_pdf_attachment',  array( $this,'custom_pdf_attachment_options' ) );
+		add_options_page( 'Custom Pdf Attachment', 'Custom PDF Attachment', 10, 'custom_pdf_attachment',  array( $this,'custom_pdf_attachment_options' ) );
 	}
 	
 	function load_settings(){
