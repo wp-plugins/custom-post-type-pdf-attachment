@@ -33,7 +33,7 @@ There is a PRO version of this plugin that supports unlimited files to upload wi
 * Files can be embedded in the page content. Users can view the content of the file before download.
 * Supported document files that can be embedded are Adobe Acrobat (PDF), Microsoft Word (DOC), Microsoft PowerPoint (PPT), Microsoft Excel (XLS)
 
-> Get a <a href="http://aviplugins.com/get-quote.php">quote</a> for creating a <strong>Custom</strong> Plugin.
+> Get a <a href="http://aviplugins.com/get-quote.php">quote</a> for creating a <strong>Custom</strong> Plugin or <a href="http://aviplugins.com/all.php">view all</a> plugins.
 
 == Installation ==
 
