@@ -43,10 +43,8 @@ There is a PRO version of this plugin that supports unlimited files to upload wi
 4. Use shortcodes or functions to display uploaded files in frontend.
 
 == Frequently Asked Questions ==
-
-= For any kind of problem =
-
-1. Please email me avi.megladon@gmail.com. My site is http://avifoujdar.wordpress.com/contact/ 
+ 
+1. Please email me at demoforafo.com. Post your queries here http://aviplugins.com/support.php
 
 == Screenshots ==
 
