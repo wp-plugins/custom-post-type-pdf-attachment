@@ -33,7 +33,7 @@ There is a PRO version of this plugin that supports unlimited files to upload wi
 * Files can be embedded in the page content. Users can view the content of the file before download.
 * Supported document files that can be embedded are Adobe Acrobat (PDF), Microsoft Word (DOC), Microsoft PowerPoint (PPT), Microsoft Excel (XLS)
 
-> Get a <a href="http://aviplugins.com/get-quote.php">quote</a> for creating your own custom plugin.
+> Checkout other plugins <a href="http://aviplugins.com/wp-register-profile-pro/">WP Register Profile</a>, <a href="http://aviplugins.com/custom-post-type-attachment-pro/">Post Type Attachment</a>, <a href="http://aviplugins.com/contact-form-with-shortcode-pro/">Newsletter Subscription</a>, <a href="http://aviplugins.com/wp-support-pro/">WP Support (PRO)</a>.
 
 == Installation ==
 
