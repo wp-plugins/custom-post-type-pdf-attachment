@@ -4,15 +4,16 @@ function add_custom_pdf_attachment_meta_boxes() {
 $saved_types = get_option('saved_post_types_for_pdf_attachment');
 $saved_no_of_pdf_attachment = get_option('saved_no_of_pdf_attachment');
 
-foreach ( $saved_types as $saved_type ) {
-	
-	for($i=1; $i<=$saved_no_of_pdf_attachment; $i++ ){
-		add_meta_box(
-			'cpt_pdf_attachment'.$i,
-			'PDF Attachment '.$i,
-			'cpt_pdf_attachment'.$i,
-			$saved_type
-		);
+if(is_array($saved_types)){
+	foreach ( $saved_types as $saved_type ) {
+		for($i=1; $i<=$saved_no_of_pdf_attachment; $i++ ){
+			add_meta_box(
+				'cpt_pdf_attachment'.$i,
+				'PDF Attachment '.$i,
+				'cpt_pdf_attachment'.$i,
+				$saved_type
+			);
+		}
 	}
 }
 

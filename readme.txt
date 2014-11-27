@@ -4,7 +4,7 @@ Donate link: http://aviplugins.com/donate/
 Tags: file upload, upload, custom attachment, attachment, post attachment, pdf attachment, upload file, pdf in post, pdf in custom post type, filepost pdf, file attachment, file, pdf
 Requires at least: 2.0.2
 Tested up to: 3.8.1
-Stable tag: 2.1.4
+Stable tag: 2.1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,9 @@ There is a PRO version of this plugin that supports unlimited files to upload wi
 4. Shortcode view
 
 == Changelog ==
+
+= 2.1.5 =
+* Notice message bug fixed.
 
 = 2.1.4 =
 * Notice message bug fixed.

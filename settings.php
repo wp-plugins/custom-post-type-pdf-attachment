@@ -10,7 +10,9 @@ class afo_pdf_settings {
 	
 	function custom_pdf_attachment_post_data(){
 		if(isset($_POST['option']) and $_POST['option'] == "save_custom_pdf_attachment_settings"){
-			update_option( 'saved_post_types_for_pdf_attachment', $_POST['attachment_post_types'] );
+			if(isset($_POST['attachment_post_types'])){
+				update_option( 'saved_post_types_for_pdf_attachment', $_POST['attachment_post_types'] );
+			}
 			update_option( 'saved_no_of_pdf_attachment', $_POST['no_of_pdf_attachment'] );
 		}
 	}
