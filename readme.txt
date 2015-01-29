@@ -20,11 +20,11 @@ This plugin will allow you to upload pdf files to your post or pages or any othe
 * Display files in frontend using shortcodes or using custom functions.
 
 = Usage =
-[pdf_attachment file="file_number" name="optional file_name"]
-Example: [pdf_attachment file="1" name="PDF File 1"]
-Or
-pdf_attachment_file("file_number","optional file_name");
-Example: <?php echo pdf_attachment_file("1","PDF File 1"); ?>
+* [pdf_attachment file="file_number" name="optional file_name"]
+* Example: [pdf_attachment file="1" name="PDF File 1"]
+* Or
+* pdf_attachment_file("file_number","optional file_name");
+* Example: &lt;?php echo pdf_attachment_file(&quot;1&quot;,&quot;PDF File 1&quot;); ?&gt;
 
 
 = Custom Post Type Attachment PRO =
