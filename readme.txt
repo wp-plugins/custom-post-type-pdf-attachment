@@ -24,7 +24,7 @@ This plugin will allow you to upload pdf files to your post or pages or any othe
 * Example: [pdf_attachment file="1" name="PDF File 1"]
 * Or
 * pdf_attachment_file("file_number","optional file_name");
-* Example: <?php echo pdf_attachment_file(1,"PDF File 1"); ?>
+* Example: <?php echo pdf_attachment_file("1","PDF File 1"); ?>
 
 = Custom Post Type Attachment PRO =
 There is a PRO version of this plugin that supports unlimited files to upload with multiple file types. You can get it <a href="http://aviplugins.com/custom-post-type-attachment-pro/" target="_blank">here</a> in <strong>USD 1.50</strong>
