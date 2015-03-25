@@ -36,6 +36,8 @@ There is a PRO version of this plugin that supports unlimited files to upload wi
 
 > Checkout other plugins <a href="http://aviplugins.com/wp-register-profile-pro/">WP Register Profile</a>, <a href="http://aviplugins.com/custom-post-type-attachment-pro/">Post Type Attachment</a>, <a href="http://aviplugins.com/contact-form-with-shortcode-pro/">Newsletter Subscription</a>, <a href="http://aviplugins.com/wp-support-pro/">WP Support (PRO)</a>.
 
+> Post your plugin related queries at <a href="http://aviplugins.com/support.php">http://aviplugins.com/support.php</a>
+
 == Installation ==
 
 1. Upload `custom-pos-type-pdf-attachment.zip` to the `/wp-content/plugins/` directory.
