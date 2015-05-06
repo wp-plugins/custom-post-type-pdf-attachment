@@ -14,7 +14,7 @@ This plugin will allow you to upload pdf files to your post or pages or any othe
 
 * This plugin will allow you to upload pdf files to your post or pages or any other custom post types.
 * You can eather use shortcodes or functions to display attachments. 
-* At most 10 PDF files can be uploaded.
+* At most 10 PDF files can be uploaded to each post.
 * just install the plugin and update setting from `Settings-> Custom Pdf Attachment`. 
 * Upload files in your post/page edit page.
 * Display files in frontend using shortcodes or using custom functions.
